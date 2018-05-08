@@ -58,15 +58,15 @@ function total() {
 }
 
 function removeFromCart(item) {
-  if cart[i].itemName === true
+  if (cart[i].itemName === true) {
   for (i = 0; i < cart.lengtH; i++) {
   cart[i].itemName
 }
   cart.splice(i, 1)
   return cart
-
-  if cart.itemName === false
+} else {
   return "That item is not in your cart."
+}
 }
 
 function placeOrder(cardNumber) {
