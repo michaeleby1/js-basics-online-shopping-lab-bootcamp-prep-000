@@ -64,6 +64,9 @@ function removeFromCart(item) {
 }
   cart.splice(i, 1)
   return cart
+
+  if cart.itemName === false
+  return "That item is not in your cart."
 }
 
 function placeOrder(cardNumber) {
